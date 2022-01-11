@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Diego Del Rio Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normilize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/front-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/443716142f.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="logo"><!--añadit imagen--></div>
+        
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="Index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="Index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="Index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="Index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Project<strong> CryptoBank</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Pyhton Project</p>
+            <img src="img/bitcoin.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            
+            <p>The project done on a cryptocurrency bank was done for the algorithm class using the Python programming language as well as numerous search and sort algorithms. During this project I improved my programming skills, my way of organizing myself when dealing with projects and my ability to think and solve problems. Thanks to this object oriented programming project I consider myself to have the necessary skills and ability in this programming language.</p>
+            <img src="img/python_MTP.jpg" alt="" class="intro__img">
+            <p>The project basically consisted of imitating every operation that a bank performs, currency deposit and withdrawal, transactions, exchange from one currency to another, opening an account, user management, currency creation... For this we used an initial csv with some users who already had a number of coins and after this and through object oriented programming we developed each of the roles (administrator and user) where each had a number of specific functions, the administrator can create coins, modify user information... something that the user can not do, we developed a hierarchy.</p>
+            <p>After having a clear idea of how the project was going to be approached, we moved on to the programming of the project and its corresponding testing. This <a href="https://github.com/diegoodelrio/CryptoBank/tree/main/Entrega_final_Trabajo_algoritmos_DIEGODELRIO%202">link</a> leads to my Github repository where I have uploaded the project.</p>
+            
+            <a href="Index.html#work" class="btn">Back</a>
+        </div>
+
+        <footer class="footer">
+
+            <a href="diegodrr1234567@gmail.com" class="footer__link">diegodrr1234567@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a href="https://github.com/diegoodelrio" class="social-list__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/ddelriorodriguez/" class="social-list__link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

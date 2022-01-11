@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Diego Del Rio Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normilize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/front-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/443716142f.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="logo"><!--añadit imagen--></div>
+        
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="Index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="Index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="Index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="Index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Project<strong> Palestine-Israel Conflict</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">RStudio Project</p>
+            <img src="img/Israel-Palestina.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            
+            <p>This project consisted in obtaining a huge amount of data extracted from Twitter on the topic of our choice, the topic I chose was a topic that at that time was very recent which was the conflict between Israel and Palestine. The objective was to perform an analysis of emotions, which seemed to me a very interesting idea to know the opinion of the people about it and on which side people were more in favor, the possible polarization seemed to me something quite interesting.</p>
+            <img src="img/1620787127-00099r6lp.jpg" alt="" class="intro__img">
+            <p>For this project what we did was to connect to an API to be able to extract all tweets that talked about Israel or Palestine, after that we analyzed the tweets, their length, the average number of words, the author that talks the most about the topic, etc. Once this was analyzed we went on to process the database, i.e. each tweet, in order to get rid of the so-called stopwords, special characters...
+                Once the tweets were processed, we started to perform wordclouds to see in a more visual way which were the most used words that were considered to have relevance. After this we made a correlation between users by the words they used and we plotted it. After this we compared the words used for tweets that named Palestine and those that named Israel, with this we will get a bar chart where we will see in a very visual way the opinion in emotions of the tweets published on the topic. After performing the sentiment analysis, we then went on to perform a SVM classification in order to predict the authorship of the tweets.</p>
+            <p>Unfortunately for this project I didn't make a report but a Rmd file, I will upload it soon to my Github page.</p>
+            
+            <a href="Index.html#work" class="btn">Back</a>
+        </div>
+
+        <footer class="footer">
+
+            <a href="diegodrr1234567@gmail.com" class="footer__link">diegodrr1234567@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a href="https://github.com/diegoodelrio" class="social-list__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/ddelriorodriguez/" class="social-list__link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

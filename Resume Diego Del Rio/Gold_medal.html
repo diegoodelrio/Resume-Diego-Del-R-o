@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Diego Del Rio Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normilize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/front-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/443716142f.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="logo"><!--añadit imagen--></div>
+        
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="Index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="Index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="Index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="Index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Project<strong> CryptoBank</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Data Mining Project</p>
+            <img src="img/2020_02_28_87803_1582890115._large.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            
+            <p>The project on predicting the number of gold medals a country will win at the Olympic Games was done for the data mining course using the Rstudio programming language, dedicated to statistical computing and graphics.</p>
+            <img src="img/Olympic-Medal-Predictions-2020.jpg" alt="" class="intro__img">
+            <p>For this project we started from a database downloaded from the Internet, this database was unpurified and with values and data that did not serve us so we had to clean the database and add those values that we believed could benefit a country to obtain a greater or lesser number of gold medals. The database ended up having the following values: number of gold medals won by a country in 2008, whether or not it was the host of the 2008 Olympics, the GDP per capita of that year, the number of athletes sent to the games, the jetlag of each country in relation to the host, etc.</p>
+            <p>After performing statistical and normality analyses, we developed a model with the best possible fit, obtaining that the best model for winning golds was a function of the variables GDP per capita, country population, number of athletes, jetlag and whether the country is a host or not. We then performed correlations, decision plots, dendograms, residual error comparisons and confusion matrices. As a result, we obtained that our model had an accuracy of 91%.</p>
+            <p>This <a href="Documentos/LOS JUEGOS OLIMPICOS.pdf">link</a> leads to the pdf document where the project report is written.</p>
+            
+            <a href="Index.html#work" class="btn">Back</a>
+        </div>
+
+        <footer class="footer">
+
+            <a href="diegodrr1234567@gmail.com" class="footer__link">diegodrr1234567@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a href="https://github.com/diegoodelrio" class="social-list__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/ddelriorodriguez/" class="social-list__link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
